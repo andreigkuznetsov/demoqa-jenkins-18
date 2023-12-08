@@ -35,7 +35,7 @@ public class RegistrationPage {
 
     @Step("Открываем страницу с веб-формой")
     public RegistrationPage openPage() {
-        open("/automation-practice-form");
+        open("https://demoqa.com/automation-practice-form");
         String FORM_TITLE = "Student Registration Form";
         formTitle.shouldHave(text(FORM_TITLE));
         executeJavaScript("$('#fixedban').remove()");

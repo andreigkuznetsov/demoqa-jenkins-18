@@ -20,8 +20,8 @@ public class TestBase {
         Configuration.browserVersion = System.getProperty(" browserVersion", "117");
         Configuration.browserSize = System.getProperty(" browserSize", "1920x1080");
 
-        Configuration.baseUrl = "https://demoqa.com";
-        Configuration.pageLoadStrategy = "eager";
+        //Configuration.baseUrl = "https://demoqa.com";
+        //Configuration.pageLoadStrategy = "eager";
 
         /*Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com";
