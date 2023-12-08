@@ -16,11 +16,11 @@ public class TestBase {
     static void beforeAll() {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.remote = "https://user1:1234@" + System.getProperty("remoteUrl",
-                "selenoid.autotests.cloud/wd/hub");
-        Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty(" browserVersion", "110.0");
-        Configuration.browserSize = System.getProperty(" browserSize", "1920x1080");
+        Configuration.remote = System.getProperty("remoteUrl",
+                "https://user1:1234@selenoid.autotests.cloud/wd/hub");
+        Configuration.browser = System.getProperty("browser","chrome");
+        Configuration.browserVersion = System.getProperty(" browserVersion","110.0");
+        Configuration.browserSize = System.getProperty(" browserSize","1920x1080");
 
         /*Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com";
