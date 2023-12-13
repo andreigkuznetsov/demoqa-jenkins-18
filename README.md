@@ -1,1 +1,1 @@
-## DemoQA Registration Form tests (Jenkins + Telegramm notifications)
+## DemoQA Registration Form tests (Jenkins + Telegram notifications)
