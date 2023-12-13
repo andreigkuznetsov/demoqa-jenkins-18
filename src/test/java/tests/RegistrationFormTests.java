@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 
+@DisplayName("Тесты на заполнение DemoQA Registration Form")
 @Tag("all-tests")
 public class RegistrationFormTests extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
